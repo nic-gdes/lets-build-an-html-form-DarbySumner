@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Forms Assignment</title>
-    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
@@ -14,21 +14,28 @@
 
     <main>
         <!-- Edit code below this line -->
-        
         <form action="" method="get" class="form-example">
             <div class="form-example">
-              <label for="name">Enter your name: </label>
+              <p><label for="name">Enter your name: </label></p>
               <input type="text" name="name" id="name" required />
             </div>
+
             <div class="form-example">
-              <label for="email">Enter your email: </label>
+              <p><label for="email">Enter your email: </label></p>
               <input type="email" name="email" id="email" required />
             </div>
+
             <div class="form-example">
-              <input type="submit" value="Subscribe!" />
+              <p><input type="submit" value="Subscribe!"/></p>
             </div>
           </form>
 
+          <form action="">
+            <p><label for="contact">Leave a mesage:</label></p>
+            <textarea id="contact" name="contact" rows="4" cols="50">Leave us a Message!</textarea>
+            <br>
+            <input type="submit" value="Submit">
+          </form>
 
         <!-- Edit code above this line -->
     </main>
