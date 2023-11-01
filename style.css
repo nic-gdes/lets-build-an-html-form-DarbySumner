@@ -3,5 +3,5 @@ form {
     flex-direction: column;
     padding: .5em;
     margin: 0%;
-    width: 50%;
+    max-width: 300px;
 }
